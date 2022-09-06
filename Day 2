@@ -1,0 +1,88 @@
+// "static void main" must be defined in a public class.
+public class Main {
+    public static void main(String[] args) {
+        
+        
+        // 1) Take the diameter of a circle as input. Print the area of the circle as integer input.
+        Scanner scan = new Scanner(System.in);
+        int d = scan.nextInt();
+        int r = d/2;
+        int area = (22*r*r)/7;
+        System.out.print(area);  
+            
+// 2) Take the base and height of a triangle as input and store them in double variables x
+// and y and print its area.
+        
+        
+        Scanner scan = new Scanner(System.in);
+        double x = scan.nextDouble();
+        double y = scan.nextDouble();
+        double area = (x*y)/2;
+        System.out.print(area);
+
+// 3) Take an input x, check if it is greater than 1000 or not. Print true or false.
+        
+        
+        Scanner scan = new Scanner(System.in);
+        int x = scan.nextInt();
+        if(x>1000)
+        {
+            System.out.print("true");
+        }
+        else
+        {
+            System.out.print("false");
+        }
+
+// 5) Find the answer of the following expressions
+// a. Int x = 7+3+4
+         Int x = 7+3+4;
+        System.out.print(x);
+          output 14
+// b. Int x = 12 + 5 + 8
+        Int x = 12 + 5 + 8;
+        System.out.print(x);
+          output 25
+// c. Int x= 13/5 + 18/8
+        Int x= 13/5 + 18/8;
+        System.out.print(x);
+         output 4    
+// d. double x= 12 + 5.0 + 2.76
+       double x= 12 + 5.0 + 2.76;
+        System.out.print(x);
+        output 19.76
+// e. double x= 12/3 + 13/2
+        double x= 12/3 + 13/2;
+        System.out.print(x);
+         output 10.5
+// f. double x=12/3 + 13.0/2
+        double x=12/3 + 13.0/2
+        System.out.print(x);
+        output 10.5
+// g. double x=14/2 + 15.0/4
+        double x=14/2 + 15.0/4;
+        System.out.print(x);
+        output 10.75
+// h.  double x= 13/2 % 5/3;
+        double x= 13/2 % 5/3;
+        System.out.print(x);
+        output 0.0
+ // i.double x= 17.0/2 % 16.0/4;
+        double x= 17.0/2 % 16.0/4;
+        System.out.print(x);
+        output 2.125
+
+// 7) Take marks of a student in five subjects as input in a double variable. Print the sum of total marks and also find the percentage of the student.
+         Scanner scan = new Scanner(System.in);
+        double sub1 = scan.nextDouble();
+        double sub2 = scan.nextDouble();
+        double sub3 = scan.nextDouble();
+        double sub4 = scan.nextDouble();
+        double sub5 = scan.nextDouble();
+        double sum = (sub1+sub2+sub3+sub4+sub5);
+        double persentage = (sub1+sub2+sub3+sub4+sub5)/5;
+        System.out.println(sum);
+        System.out.println(persentage);
+
+    }
+}
